@@ -1,0 +1,85 @@
+body {
+	background-color: #C2D8CF;
+	font-family: "Trebuchet MS", "Verdana", "Arial", "Sans Seriff";
+}
+#bloc_page {
+	width: 100%;
+	margin: auto;
+}
+header {
+	background: #409F3D;
+    text-align: center;
+	padding: 5px;
+	border-style: ridge;
+    border-color: #0F710F;
+	border-radius: 15px;
+}
+h1 {				
+	color: #384564;
+	text-align: center;
+	text-transform: uppercase;
+}
+nav {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background: green;
+	padding: 5px;
+    text-align: right;
+	border-radius: 5px;
+}
+nav ul {
+	list-style-type: none;
+    display: flex;
+}
+nav li {
+    margin: auto;
+}
+nav a {
+    font-size: 1.3em;
+    color: #181818;
+    text-decoration: none;
+}
+article {
+	
+	display: flex; 
+}
+section {
+	margin-right: 20px;
+	background-image: url("img/minidesert.jpg");
+	width: 65%;
+    text-align: justify;
+	padding: 5px;
+	border-style: ridge;
+    border-color: #0F710F;
+	border-radius: 15px;
+}
+aside {
+    background: #6DB47E;
+	width: 35%;
+    text-align: justify;
+	padding: 5px;
+	border-radius: 5px;
+}
+h2 {
+	color: #396438;
+	text-align: left;
+}
+h3 {
+	color: #163F15;
+	text-align: left;
+}
+p {
+	font-size:1em;
+	text-align: justify;
+}
+img {
+   display: block;
+   margin: auto;
+}
+footer{
+	background: #409F3D;
+	margin-top: 10px;
+	padding: 5px;
+    text-align: center;
+	border-radius: 5px;
+}
